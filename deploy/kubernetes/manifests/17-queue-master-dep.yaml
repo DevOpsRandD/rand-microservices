@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: queue-master
-        image: weaveworksdemos/queue-master:0.3.1
+        # image: weaveworksdemos/queue-master:0.3.1
+        image: 961518039473.dkr.ecr.us-west-2.amazonaws.com/rand-queue-master:latest
         imagePullPolicy: IfNotPresent
         env:
          - name: JAVA_OPTS

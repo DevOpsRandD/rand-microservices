@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: carts-db
-        image: mongo
+        # image: mongo
+        image: 961518039473.dkr.ecr.us-west-2.amazonaws.com/rand-carts-db:latest
         imagePullPolicy: IfNotPresent
         ports:
         - name: mongo

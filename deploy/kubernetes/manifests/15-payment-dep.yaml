@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: payment
-        image: weaveworksdemos/payment:0.4.3
+        # image: weaveworksdemos/payment:0.4.3
+        image: 961518039473.dkr.ecr.us-west-2.amazonaws.com/rand-payment:latest
         imagePullPolicy: IfNotPresent
         resources:
           limits:

@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: shipping
-        image: weaveworksdemos/shipping:0.4.8
+        # image: weaveworksdemos/shipping:0.4.8
+        image: 961518039473.dkr.ecr.us-west-2.amazonaws.com/rand-shipping:latest
         imagePullPolicy: IfNotPresent
         env:
          - name: ZIPKIN
