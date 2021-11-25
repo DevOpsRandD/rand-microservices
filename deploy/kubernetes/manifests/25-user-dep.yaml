@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: user
-        image: weaveworksdemos/user:0.4.7
+        # image: weaveworksdemos/user:0.4.7
+        image: 961518039473.dkr.ecr.us-west-2.amazonaws.com/rand-user:latest
         imagePullPolicy: IfNotPresent
         resources:
           limits:

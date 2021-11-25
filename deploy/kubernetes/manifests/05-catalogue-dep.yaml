@@ -18,9 +18,8 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: weaveworksdemos/catalogue:0.3.5
-        
-
+        # image: weaveworksdemos/catalogue:0.3.5
+        image: 961518039473.dkr.ecr.us-west-2.amazonaws.com/rand-catalog:latest
         imagePullPolicy: IfNotPresent
         command: ["/app"]
         args:
